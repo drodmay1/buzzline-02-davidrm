@@ -1,0 +1,9 @@
+2025-01-19 16:29:30.642 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs/project_log.log
+2025-01-19 16:29:30.645 | INFO     | __main__:main:81 - START consumer.
+2025-01-19 16:29:30.646 | INFO     | __main__:get_kafka_topic:38 - Kafka topic: buzzline
+2025-01-19 16:29:30.646 | INFO     | __main__:get_kafka_consumer_group_id:45 - Kafka consumer group id: default_group
+2025-01-19 16:29:30.646 | INFO     | __main__:main:86 - Consumer: Topic 'buzzline' and group 'default_group'...
+2025-01-19 16:29:30.646 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-19 16:29:30.646 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
+2025-01-19 16:29:30.770 | INFO     | utils.utils_consumer:create_kafka_consumer:57 - Kafka consumer created successfully.
+2025-01-19 16:29:30.770 | INFO     | __main__:main:92 - Polling messages from topic 'buzzline'...
