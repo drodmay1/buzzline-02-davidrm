@@ -10,6 +10,9 @@ Consume messages from a Kafka topic and process them.
 
 # Import packages from Python Standard Library
 import os
+import sys
+print("Python executable being used:", sys.executable)
+print("Python paths:", sys.path)
 
 # Import external packages
 from dotenv import load_dotenv
